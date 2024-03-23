@@ -1,0 +1,51 @@
+name: flutter_application_1
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+#---------PACKAGES -------------------#
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.7
+
+  #--------- Utility  PACKAGES -------------------#
+  http: ^0.13.3
+  intl:
+  logger:
+  url_launcher:
+  flutter_native_splash:
+
+  #---------Icons -------------------#
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.6
+  shared_preferences:
+
+  #---------State Management -------------------#
+  get: ^4.6.5
+  get_storage:
+
+#---------Product Specifique -------------------#
+
+#---------PACKAGES end -------------------#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logos/
+    - assets/icons/
+    - assets/images/
+
+  #---------LOCAL FONTS -------------------#
