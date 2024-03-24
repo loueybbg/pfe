@@ -9,13 +9,15 @@ namespace PfeApi.Dtos.Account
     public class RegisterDto
     {
         [Required]
-        public string? Username { get; set; }
+        public string Username { get; set; }
         [Required]
         [EmailAddress]
-        public string? Email { get; set; }
+        public string Email { get; set; }
         [Required]
-        public string? Password { get; set; }
+        public string Password { get; set; }
         public string? FullName { get; set; }
         public int? PhoneNumber { get; set; }
+       /* public String? FirstName { get; set; }
+        public String? LastName { get; set; }*/
     }
 }

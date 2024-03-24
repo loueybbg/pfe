@@ -46,7 +46,7 @@ namespace PfeApi.Controllers
             var accessToken = _tokenService.CreateToken(user);
 
             return Ok(
-                new 
+                new
                 {
                     Token = accessToken,
                     User = userData,
@@ -92,7 +92,7 @@ namespace PfeApi.Controllers
                             {
                                 Token = accessToken,
                                 User = userData,
-                               // avatar = "avatar-s-11.jpg"
+                                // avatar = "avatar-s-11.jpg"
                             }
                         );
                     }
@@ -123,7 +123,7 @@ namespace PfeApi.Controllers
             foreach (var user in users)
             {
                 var roles = await _userManager.GetRolesAsync(user);
-                var userDto = new 
+                var userDto = new
                 {
                     Id = user.Id,
                     Username = user.UserName,
@@ -181,4 +181,3 @@ namespace PfeApi.Controllers
         }
     }
 }
-

@@ -4447,11 +4447,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\louey\\OneDrive\\Bureau\\pfee\\PfeApi\\PfeApi.csproj",
+      "projectUniqueName": "C:\\Users\\louey\\OneDrive\\Bureau\\pfe\\PfeApi\\PfeApi.csproj",
       "projectName": "PfeApi",
-      "projectPath": "C:\\Users\\louey\\OneDrive\\Bureau\\pfee\\PfeApi\\PfeApi.csproj",
+      "projectPath": "C:\\Users\\louey\\OneDrive\\Bureau\\pfe\\PfeApi\\PfeApi.csproj",
       "packagesPath": "C:\\Users\\louey\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\louey\\OneDrive\\Bureau\\pfee\\PfeApi\\obj\\",
+      "outputPath": "C:\\Users\\louey\\OneDrive\\Bureau\\pfe\\PfeApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

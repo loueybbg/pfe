@@ -7,14 +7,16 @@ using PfeApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: "AllowAllOrigins",
                       builder =>
                       {
-                          builder.WithOrigins("http://localhost:5173").AllowAnyHeader().AllowAnyMethod();
+                          builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
                       });
 });
+
 
 // Add services to the container.
 
